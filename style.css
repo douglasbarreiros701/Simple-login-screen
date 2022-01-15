@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+body {
+   margin: 0;
+   font-family: 'Sarala', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+
+.login-principal-2 {
+    border: 1px solid red;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6E84D3;
+}
+
+.login-meio {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    width: 40%;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: white;
+    border-radius: 10px;
+
+
+}
+
+.card-login > h1 {
+   color: #6E84D3;
+   font-weight: 800;
+   margin: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.area-texto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0;
+}
+
+.area-texto > input {
+    border: none;
+    width: 100%;
+    background: #97A8AF;
+    outline: none;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+.area-texto > label {
+    color: #22262A;
+    margin-bottom: 10px;
+
+}
+
+.area-texto >input::placeholder {
+    color: white;
+    font-weight: 600;
+}
+
+.entrar {
+width: 100%;
+border: none;
+padding: 16px;
+margin-top: 25px;
+border-radius: 15px;
+background: #6E84D3;
+letter-spacing: 6px;
+font-weight: 800;
+text-transform: uppercase;
+color: white;
+cursor: pointer;
+}
